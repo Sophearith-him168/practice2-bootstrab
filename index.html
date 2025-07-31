@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop in Style</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+      .badge-sale {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+      }
+
+      .rating {
+        color: #ffc107;
+      }
+
+      footer {
+        background-color: #212529;
+        color: white;
+        padding: 2rem 0;
+        text-align: center;
+      }
+      .card {
+        text-align: center;
+      }
+      .nav-item .nav-link {
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .nav-item .nav-link:hover {
+        background-color: #c2c5c7;
+        color: rgb(68, 68, 68);
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Brand</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">All Products</a></li>
+                <li><a class="dropdown-item" href="#">Popular</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button class="btn btn-outline-dark">
+            <i class="bi bi-cart"></i>
+            Cart <span class="badge bg-success text-white">0</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <header class="bg-dark py-5 text-white text-center">
+      <div class="container">
+        <h1 class="fw-bold">Shop in style</h1>
+        <p class="lead">With this shop homepage template</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="container py-5">
+        <div class="row g-5">
+          <!-- Card 1 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div class="card h-100" style="width: 95%">
+              <img src="image/31343C.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <span class="badge bg-success badge-sale">Sale</span>
+                <h5 class="card-title">Fancy Product</h5>
+                <p class="card-text">$40.00 – $80.00</p>
+                <br />
+                <button class="btn btn-outline-dark">Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div class="card h-100" style="width: 95%">
+              <img src="image/31343C.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Special Item</h5>
+                <div class="rating">★★★★★</div>
+                <p>
+                  <span class="text-muted text-decoration-line-through"
+                    >$20.00</span
+                  >
+                  $18.00
+                </p>
+                <button class="btn btn-outline-dark">Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div class="card h-100" style="width: 95%">
+              <img src="image/31343C.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <span class="badge bg-success badge-sale">Sale</span>
+                <h5 class="card-title">Fancy Product</h5>
+                <p class="card-text">$40.00 – $80.00</p>
+                <br />
+                <button class="btn btn-outline-dark">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div class="card h-100" style="width: 95%">
+              <img src="image/31343C.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Special Item</h5>
+                <div class="rating">★★★★★</div>
+                <p>
+                  <span class="text-muted text-decoration-line-through"
+                    >$20.00</span
+                  >
+                  $18.00
+                </p>
+                <button class="btn btn-outline-dark">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div class="card h-100" style="width: 95%">
+              <img src="image/31343C.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <span class="badge bg-success badge-sale">Sale</span>
+                <h5 class="card-title">Fancy Product</h5>
+                <p class="card-text">$40.00 – $80.00</p>
+                <br />
+                <button class="btn btn-outline-dark">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div class="card h-100" style="width: 95%">
+              <img src="image/31343C.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Special Item</h5>
+                <div class="rating">★★★★★</div>
+                <p>
+                  <span class="text-muted text-decoration-line-through"
+                    >$20.00</span
+                  >
+                  $18.00
+                </p>
+                <button class="btn btn-outline-dark">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 7 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div class="card h-100" style="width: 95%">
+              <img src="image/31343C.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <span class="badge bg-success badge-sale">Sale</span>
+                <h5 class="card-title">Fancy Product</h5>
+                <p class="card-text">$40.00 – $80.00</p>
+                <br />
+                <button class="btn btn-outline-dark">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 8 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div class="card h-100" style="width: 95%">
+              <img src="image/31343C.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Special Item</h5>
+                <div class="rating">★★★★★</div>
+                <p>
+                  <span class="text-muted text-decoration-line-through"
+                    >$20.00</span
+                  >
+                  $18.00
+                </p>
+                <button class="btn btn-outline-dark">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <p class="mb-0">Copyright &copy; Your Website 2025</p>
+      </div>
+    </footer>
+  </body>
+</html>
